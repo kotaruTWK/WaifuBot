@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands
 import booru
@@ -15,7 +16,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 # Bot token in the quotes
-bot_token = "Mzc5ODI1NDg2ODczODg2NzIw.GCHx8F.lcXnH8wrwyJxEr__V8ABbEdKalG1kzs3Fc0LsA"
+bot_token = os.environ["DISCORD_TOKEN"]
 
 """Changes Made:
 Prefix modifier (fix help and ERR prefixes)
