@@ -4,6 +4,7 @@ import os
 import discord
 from discord.ext import commands
 
+print(os.environ["DISCORD_TOKEN"])
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -22,5 +23,4 @@ async def ping(ctx):
 async def hello(ctx):
     await ctx.send("Choo choo! 🚅")
 
-print(os.environ["DISCORD_TOKEN"])
 bot.run(os.environ["DISCORD_TOKEN"])
