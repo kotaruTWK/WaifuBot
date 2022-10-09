@@ -22,5 +22,5 @@ async def ping(ctx):
 async def hello(ctx):
     await ctx.send("Choo choo! 🚅")
 
-
+print(os.environ["DISCORD_TOKEN"])
 bot.run(os.environ["DISCORD_TOKEN"])
