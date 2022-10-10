@@ -4,8 +4,6 @@ import os
 import discord
 from discord.ext import commands
 
-print(os.environ["DISCORD_TOKEN"])
-
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
