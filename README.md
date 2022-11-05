@@ -21,7 +21,3 @@ This example starts a Discord bot using [discord.py](https://discordpy.readthedo
 
 - Install packages using `pip install -r requirements.txt`
 - Start the bot using `python main.py`
-
-## 📝 Notes
-
-This is a basic bot with the prefix `!`, more information can be founded at their [offical documentation](https://discordpy.readthedocs.io/en/stable/api.html).
